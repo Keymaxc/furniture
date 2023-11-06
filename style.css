@@ -1,0 +1,254 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.teks1 {
+    color: red;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: red; 
+}
+
+.carousel-item {
+    position: relative; /* Menentukan posisi relatif */
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    position: absolute; /* Menentukan posisi absolut */
+    top: 50%; /* Posisi vertikal */
+    left: 50%; /* Posisi horizontal */
+    transform: translate(-50%, -50%); /* Untuk menggeser teks ke tengah */
+    text-align: center; /* Teks berada di tengah */
+    width: 70%; /* Lebar teks */
+    max-width: 500px; /* Lebar maksimum teks */
+    color: #fff; /* Warna teks */
+    padding: 20px; /* Jarak teks dari pinggir */
+}
+
+.carousel-caption h5 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: crimson;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.desktop1-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    transition: 0.3s;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.desktop1-desktop1 {
+    gap: 13px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 30px 80px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .desktop1-image16 {
+    width: 1194px;
+    height: 541px;
+  }
+  .desktop1-image17 {
+    width: 593px;
+    height: 357px;
+    z-index: 1;
+  }
+  .desktop1-image12 {
+    width: 587px;
+    height: 357px;
+    z-index: 4;
+  }
+  .desktop1-image11 {
+    width: 1194px;
+    height: 456px;
+    z-index: 5;
+  }
+  .desktop1-image10 {
+    width: 589px;
+    height: 356px;
+    z-index: 6;
+  }
+  .desktop1-image15 {
+    width: 592px;
+    height: 356px;
+    z-index: 7;
+  }
+
+  :root {
+    --dl-color-gray-500: #595959;
+    --dl-color-gray-700: #999999;
+    --dl-color-gray-900: #D9D9D9;
+    --dl-size-size-large: 144px;
+    --dl-size-size-small: 48px;
+    --dl-color-danger-300: #A22020;
+    --dl-color-danger-500: #BF2626;
+    --dl-color-danger-700: #E14747;
+    --dl-color-gray-black: #000000;
+    --dl-color-gray-white: #FFFFFF;
+    --dl-size-size-medium: 96px;
+    --dl-size-size-xlarge: 192px;
+    --dl-size-size-xsmall: 16px;
+    --dl-space-space-unit: 16px;
+    --dl-color-primary-100: #003EB3;
+    --dl-color-primary-300: #0074F0;
+    --dl-color-primary-500: #14A9FF;
+    --dl-color-primary-700: #85DCFF;
+    --dl-color-success-300: #199033;
+    --dl-color-success-500: #32A94C;
+    --dl-color-success-700: #4CC366;
+    --dl-size-size-xxlarge: 288px;
+    --dl-size-size-maxwidth: 1400px;
+    --dl-radius-radius-round: 50%;
+    --dl-space-space-halfunit: 8px;
+    --dl-space-space-sixunits: 96px;
+    --dl-space-space-twounits: 32px;
+    --dl-radius-radius-radius2: 2px;
+    --dl-radius-radius-radius4: 4px;
+    --dl-radius-radius-radius8: 8px;
+    --dl-space-space-fiveunits: 80px;
+    --dl-space-space-fourunits: 64px;
+    --dl-space-space-threeunits: 48px;
+    --dl-space-space-oneandhalfunits: 24px;
+  }
+  .button {
+    color: var(--dl-color-gray-black);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-gray-white);
+  }
+  .input {
+    color: var(--dl-color-gray-black);
+    cursor: auto;
+    padding: 0.5rem 1rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-gray-white);
+  }
+  .textarea {
+    color: var(--dl-color-gray-black);
+    cursor: auto;
+    padding: 0.5rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-gray-white);
+  }
+  .list {
+    width: 100%;
+    margin: 1em 0px 1em 0px;
+    display: block;
+    padding: 0px 0px 0px 1.5rem;
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  .list-item {
+    display: list-item;
+  }
+  .teleport-show {
+    display: flex !important;
+    transform: none !important;
+  }
+  .Content {
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .Heading {
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+  }
+  
+/* CSS lain di sini */
+
+/* Media Query untuk tampilan di bawah 767px */
+@media screen and (max-width: 767px) {
+  .desktop1-container,
+  .desktop1-desktop1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .carousel-item {
+    height: auto;
+    min-height: auto;
+  }
+
+  .carousel-caption {
+    width: 90%;
+    max-width: none;
+    display: block; /* Pastikan caption ditampilkan */
+  }
+
+  .carousel-caption h5,
+  .carousel-caption p,
+  .carousel-caption a {
+    display: block; /* Pastikan teks dan tombol ditampilkan */
+  }
+
+  .carousel-caption h5 {
+    font-size: 2rem;
+    margin-top: 5px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .carousel-caption a {
+    margin-top: 10px;
+  }
+}

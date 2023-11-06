@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+
+.teks1{
+    color: red;
+}
+
+.custom-margin{
+    margin-top: 50px;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s; 
+  }
+  
+.navbar-nav .nav-link:hover {
+    color: red; 
+}
+
+.carousel-item {
+    position: relative; 
+}
+
+.carousel-caption{
+    bottom: 550px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.card-img-top {
+    border: none;
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 7px 0px;
+}
+
+
+
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+
+h3,h5{
+    color:black;
+}
+
+.rating .fa-star {
+    font-size: 12px;
+    color: gold; 
+    margin-right: 5px; 
+}
+.rating .far {
+    font-size: 12px;
+    color: #ccc; 
+    margin-right: 5px; 
+}
+
+
+  @media (max-width: 767px) {
+    .rating {
+      font-size: 16px;
+    }
+}
